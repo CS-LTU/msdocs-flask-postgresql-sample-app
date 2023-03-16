@@ -5,10 +5,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATABASE_URI = 'postgresql+psycopg2://{dbuser}:{dbpass}@{dbhost}/{dbname}'.format(
-    dbuser=os.environ['DBUSER'],
-    dbpass=os.environ['DBPASS'],
-    dbhost=os.environ['DBHOST'],
-    dbname=os.environ['DBNAME']
+    dbuser=os.environ['tdgwdcmeaq'],
+    dbpass=os.environ['W142H636DZKC41BY$'],
+    dbhost=os.environ['msdocs-python-postgres-faz3-server.postgres.database.azure.com'],
+    dbname=os.environ['msdocs-python-postgres-faz3-database']
 )
 
 TIME_ZONE = 'UTC'
